@@ -20,9 +20,13 @@ public class Job {
         id = nextId;
         nextId++;
     }
-    public Job (String name) {
+    public Job (String name, Employer employer, Location location, PositionType positionType, CoreCompetency coreCompetency) {
         this();
-        this.name = name;
+        name = name;
+        employer = employer;
+        location = location;
+        positionType = positionType;
+        coreCompetency = coreCompetency;
     }
 
 
