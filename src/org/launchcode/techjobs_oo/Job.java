@@ -22,11 +22,11 @@ public class Job {
     }
     public Job (String name, Employer employer, Location location, PositionType positionType, CoreCompetency coreCompetency) {
         this();
-        name = name;
-        employer = employer;
-        location = location;
-        positionType = positionType;
-        coreCompetency = coreCompetency;
+        this.name = name;
+        this.employer = employer;
+        this.location = location;
+        this.positionType = positionType;
+        this.coreCompetency = coreCompetency;
     }
 
 
