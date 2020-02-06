@@ -1,7 +1,7 @@
 package org.launchcode.techjobs_oo;
 
 import java.util.Objects;
-
+//public class Location extends JobField{
 public class Location {
     private int id;
     private static int nextId = 1;
@@ -19,7 +19,7 @@ public class Location {
         this.value = value;
     }
 
-    // Custom toString, equals, and hashCode methods:
+
 
     @Override
     public String toString() {

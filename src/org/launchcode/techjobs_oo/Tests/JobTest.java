@@ -36,7 +36,17 @@ public class JobTest {
          Job productTester2 = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
          assertNotEquals(productTester1, productTester2);
      }
-     @Test
-    public void 
-
+    @Test
+    public void testForToString(){
+        assertTrue(B.toString().contains("ID"));
+        assertTrue(B.toString().contains("Name"));
+        assertTrue(B.toString().contains("Employer"));
+        assertTrue(B.toString().contains("Location"));
+        assertTrue(B.toString().contains("Position Type"));
+        assertTrue(B.toString().contains("Core Competency"));
+    }
+    @Test
+    public void testForNull(){
+        assertTrue(B.toString().contains("Data Not Available"));
+    }
 }
