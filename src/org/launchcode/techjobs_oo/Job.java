@@ -50,12 +50,12 @@ public class Job {
     public String toString() {
         if (this.name == null){
                 this.name = "Data Not Available";}
-        return  id + ("ID:" + id + "\n") +
-                name + ("Name:" + name + "\n") +
-                location + ("Location:" + location + "\n") +
-                employer + ("Employer:" + employer + "\n") +
-                positionType + ("Position Type:" + positionType + "\n") +
-                coreCompetency + "Core Competency" + coreCompetency + "\n";
+        return   "ID:" + id + "\n" +
+                  "Name: " + name + "\n" +
+                 "Location: " + location + "\n" +
+               "Employer: " + employer + "\n" +
+                 "Position Type: " + positionType + "\n" +
+                "Core Competency: " + coreCompetency + "\n";
 
     }
 
